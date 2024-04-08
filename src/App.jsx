@@ -7,17 +7,14 @@ import './App.css'
 import Withprops from './components/Withprops'
 import Classcomponentwithprop from './components/Classcomponentwithprop'
 import States from './components/States'
-
+import SetState from './components/SetState'
+import EventHandlers from './components/EventHandlers'
+import Parentcomponent from './components/Parentcomponent'
 function App() {
 
   return (
     <>
-
-      <Greet></Greet>
-      <Welcome></Welcome>
-      <Withprops name="sahil"><p>child</p> <button>hello</button></Withprops>
-      <Classcomponentwithprop name="sahil"> <button>class ka button</button> </Classcomponentwithprop>
-      <States></States>
+        <Parentcomponent />
     </>
   )
 }

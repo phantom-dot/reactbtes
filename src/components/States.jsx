@@ -14,7 +14,7 @@ constructor(props) {
     return (
         <>
         <h1>{this.state.message}</h1>
-        <button onClick={()=>this.subscribe()}> suscribe</button>
+        <button onClick={()=>this.subscribe()}> subscribe</button>
         </>
     )
   }
@@ -25,3 +25,4 @@ constructor(props) {
   }
 
 }
+

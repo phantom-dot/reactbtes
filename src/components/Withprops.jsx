@@ -1,10 +1,9 @@
 import React from 'react'
 
-export default function Withprops(props) {
+export default function Withprops({name}) {
   return (
     <>
-    <h1>Hello from {props.name} </h1>
-    <u>{props.children}</u>
+    <h1>Hello from {name} </h1>
     </>
     
   )
